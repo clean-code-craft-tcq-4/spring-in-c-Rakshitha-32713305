@@ -13,7 +13,7 @@ int ledAlertCallCount = 0;
 	 s.min = numberset[0];
 	 s.max = numberset[0];
 	 int i;
-	 int sum = 0;
+	 float sum = 0;
 
 	 if(setlength == 0)
 	 {
