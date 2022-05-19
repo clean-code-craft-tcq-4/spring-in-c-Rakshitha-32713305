@@ -17,9 +17,7 @@ TEST_CASE("reports average, minimum and maximum") {
 }
 
 TEST_CASE("average is NaN for empty array") {
-    float emptyarray[] = {};
-    //float *a;
-    //a = &emptyarray;
+    float emptyarray[] = {};  
         
     Stats computedStats = compute_statistics(emptyarray, 0);    
     //All fields of computedStats (average, max, min) must be
